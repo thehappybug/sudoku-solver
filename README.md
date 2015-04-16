@@ -16,13 +16,25 @@ javac io/github/thehappybug/Algorithms/SudokuSolver.java
 Run the class `SudokuSolver`'s `main` method using:
 
 ```
-$ java io.github.thehappybug.Algorithms.SudokuSolver
-[-7, -3, -2, -1, 5, 8]
-[-7, -3, 10]
-[-7, -2, -1, 10]
-[-7, -2, 9]
-[-7, -1, 8]
-[-3, -2, 5]
+$ java io.github.thehappybug.Algorithms.SudokuSolver input.txt
+1 2 3 4 5 7 6 8 9
+5 6 8 1 2 9 3 4 7
+4 7 9 3 6 8 1 2 5
+3 1 2 5 4 6 7 9 8
+6 4 7 8 9 1 5 3 2
+8 9 5 2 7 3 4 1 6
+2 3 1 6 8 5 9 7 4
+7 8 6 9 1 4 2 5 3
+9 5 4 7 3 2 8 6 1
+1 2 3 4 5 7 6 8 9
+5 6 8 1 2 9 3 4 7
+4 7 9 3 6 8 1 2 5
+3 1 2 5 4 6 7 9 8
+6 4 7 8 9 1 5 3 2
+8 9 5 2 7 3 4 1 6
+2 3 1 6 8 5 9 7 4
+7 8 6 9 1 4 2 5 3
+9 5 4 7 3 2 8 6 1
 ```
 
 The program requires filename of the input file containing the sudoku problems as the argument.
